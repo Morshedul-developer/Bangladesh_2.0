@@ -1,4 +1,96 @@
 /* shared style */
-*
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.font-fira-sans { 
+  font-family: "Fira Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.container{
+    width: 83%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
 
 /* main style */
+header{
+    background-color: #F5F5F5;
+}
+header nav{
+    padding: 31px 0;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+nav ul li button{
+    font-size: 18px;
+    font-weight: 600;
+    color: #006A50;
+    border: 1px solid #006A50;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+#banner{
+    padding: 20px 0 80px 0;
+}
+#banner .banner-container{
+    background-color: #C6E4D6;
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 75px 60px;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
+#banner .banner-container .banner-info{
+    max-width: 622px;
+}
+#banner .banner-container .banner-info p{
+    font-size: 24px;
+    font-weight: 500;
+    color: #0E0E0E80;
+    margin-bottom: 16px;
+}
+#banner .banner-container .banner-info h1{
+    font-size: 56px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+#banner .banner-container .banner-info button{
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 17px 34px;
+    background-color: #006A50;
+    border: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
