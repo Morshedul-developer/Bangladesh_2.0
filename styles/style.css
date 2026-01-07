@@ -218,6 +218,35 @@ nav ul li button:hover{
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
 }
-#vision .vision-container .quote-box{
-    
+#vision .quote-box{
+    background-color: #FFFFFF;
+    padding: 48px 24px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    position: relative;
+}
+#vision .quote-box img{
+    width: 64px;
+    position: absolute;
+    top: 25px;
+}
+#vision .quote-box .quote-des .m-q{
+    font-size: 16px;
+    line-height: 24px;
+    color: #0E0E0ECC;
+    margin-bottom: 12px;
+}
+#vision .quote-box .quote-des h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0E0E0ECC;
+    margin-bottom: 4px;
+}
+#vision .quote-box .quote-des .l-q{
+    font-size: 16px;
+    line-height: 24px;
+    color: #0E0E0E99;
 }
