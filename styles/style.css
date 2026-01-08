@@ -316,9 +316,87 @@ nav ul li button:hover{
     background-color: #C6E4D6;
     padding: 12.5px;
     border: 1px solid #0E0E0E;
+    cursor: pointer;
     border-radius: 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
+}
+
+#news{
+    background-color: #F5F5F5;
+    padding: 0px 0 80px 0;
+}
+#news .news-container h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+#news .news-container p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #0E0E0EB3;
+    margin-bottom: 32px;
+}
+#news .news-container .satellite-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+#news .news-container .satellite-card{
+    background-color: #FFFFFF;
+    padding: 48px;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+#news .news-container .satellite-card .s-i{
+    max-width: 480px;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
+#news .news-container .satellite-card .satellite-des h3{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0ECC;
+    margin-bottom: 12px;
+}
+#news .news-container .satellite-card .satellite-des img{
+    max-width: 134px;
+    height: 40px;
+    margin-bottom: 12px;
+}
+#news .news-container .satellite-card .satellite-des p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #0E0E0EB3;
+    margin-bottom: 12px;
+}
+#news .news-container .satellite-card .satellite-des .time{
+    margin-left: 12px;
+}
+#news .news-container .satellite-card .satellite-des button{
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-top: 20px;
+    padding: 13px 26px;
+    background-color: #006A50;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
 }
