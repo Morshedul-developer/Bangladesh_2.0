@@ -250,3 +250,75 @@ nav ul li button:hover{
     line-height: 24px;
     color: #0E0E0E99;
 }
+
+#opinion{
+    background-color: #F5F5F5;
+    padding: 0px 0 80px 0;
+}
+#opinion .opinion-container h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+#opinion .opinion-container .table-container{
+    background-color: #FFFFFF;
+    padding: 32px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+#opinion .opinion-container .table-container table{
+    width: 1195px;
+    border-collapse: collapse;
+}
+#opinion .opinion-container .table-container table th,td{
+    border: 1px solid #0E0E0E26;
+}
+#opinion .opinion-container .table-container table th{
+    background-color: #C6E4D6;
+    padding: 24px;
+    text-align: left;
+}
+#opinion .opinion-container .table-container table .left{
+    border-right: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0E0E0E;
+}
+#opinion .opinion-container .table-container table .right{
+    padding: 0;
+    border-left: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0E0E0E;
+}
+#opinion .opinion-container .table-container table td{
+    border: 1px solid #0E0E0E26;
+}
+#opinion .opinion-container .table-container table .left-des{
+    padding: 36.5px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0E0E0E;
+}
+#opinion .opinion-container .table-container table .right-des{
+    padding: 24px;
+}
+#opinion .opinion-container .table-container table .right-des select{
+    font-size: 15px;
+    font-weight: 500;
+    color: #0E0E0E;
+    width: 152px;
+    height: 44px;
+    background-color: #C6E4D6;
+    padding: 12.5px;
+    border: 1px solid #0E0E0E;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
