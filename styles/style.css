@@ -179,17 +179,26 @@ nav ul li button:hover {
 #vision .vision-container .vision-cards .v1 button {
   background-color: #5490f5;
 }
+#vision .vision-container .vision-cards .v1 button:hover {
+  background-color: #3F7AE0;
+}
 #vision .vision-container .vision-cards .v2 {
   background-color: #c6e4d6;
 }
 #vision .vision-container .vision-cards .v2 button {
   background-color: #09a15c;
 }
+#vision .vision-container .vision-cards .v2 button:hover {
+  background-color: #078B50;
+}
 #vision .vision-container .vision-cards .v3 {
   background-color: #f7ebcf;
 }
 #vision .vision-container .vision-cards .v3 button {
   background-color: #ffc239;
+}
+#vision .vision-container .vision-cards .v3 button:hover {
+  background-color: #E6AD32;
 }
 #vision .vision-container .vision-cards .card img {
   width: 62px;
@@ -548,6 +557,9 @@ td {
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
   cursor: pointer;
+}
+#subscribe .subscribe-container .subscribe-des button:hover {
+  background-color: #008060;
 }
 #subscribe .subscribe-container .subscribe-des .promise{
   font-size: 16px;
