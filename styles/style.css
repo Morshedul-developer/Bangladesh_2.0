@@ -432,7 +432,7 @@ td {
   justify-content: center;
   gap: 24px;
 }
-#donate .donate-container .taka-container .taka{
+#donate .donate-container .taka-container .taka {
   max-width: 240px;
   height: 128px;
   padding: 40px;
@@ -441,7 +441,7 @@ td {
   align-items: center;
   cursor: pointer;
   margin-bottom: 32px;
-  border: 1px solid #0E0E0E26;
+  border: 1px solid #0e0e0e26;
   border-radius: 16px;
   -webkit-border-radius: 16px;
   -moz-border-radius: 16px;
@@ -453,38 +453,125 @@ td {
   font-weight: bold;
   color: #0e0e0ecc;
 }
-#donate .donate-container .taka-container .tk{
-    background-color: #C6E4D6;
+#donate .donate-container .taka-container .tk {
+  background-color: #c6e4d6;
 }
-#donate .donate-container input[type="text"]{
-    width: 970px;
-    height: 64px;
-    font-size: 20px;
-    text-align: center;
-    border: none;
-    border-bottom: 1px solid #0E0E0E26;
-    background-color: #FFFFFF;
-    margin-bottom: 32px;
+#donate .donate-container input[type="text"] {
+  width: 970px;
+  height: 64px;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid #0e0e0e26;
+  background-color: #ffffff;
+  margin-bottom: 32px;
 }
-#donate .donate-container input[type="text"]::placeholder{
-    font-size: 20px;
-    color: #0E0E0E4D;
+#donate .donate-container input[type="text"]::placeholder {
+  font-size: 20px;
+  color: #0e0e0e4d;
 }
-#donate .donate-container button{
-    font-size: 18px;
-    font-weight: 600;
-    color: #FFFFFF;
-    padding: 17px 34px;
-    border: none;
-    border: 1px solid #0E0E0E1A;
-    background-color: #006A50;
-    cursor: pointer;
-    border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
+#donate .donate-container button {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 17px 34px;
+  border: none;
+  border: 1px solid #0e0e0e1a;
+  background-color: #006a50;
+  cursor: pointer;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
 }
-#donate .donate-container button:hover{
-    background-color: #008060;
+#donate .donate-container button:hover {
+  background-color: #008060;
+}
+
+#subscribe {
+  background-color: #f5f5f5;
+  padding: 0px 0 80px 0;
+}
+#subscribe .subscribe-container {
+  height: 395px;
+  text-align: center;
+  background-color: #c6e4d6;
+  padding: 80px 265px;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+}
+#subscribe .subscribe-container .subscribe-des {
+  max-width: 750px;
+}
+#subscribe .subscribe-container .subscribe-des h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0e0e0e;
+  margin-bottom: 16px;
+}
+#subscribe .subscribe-container .subscribe-des .des-para {
+  font-size: 16px;
+  line-height: 24px;
+  color: #0e0e0eb3;
+  margin-bottom: 24px;
+  padding: 0 64px;
+}
+#subscribe .subscribe-container .subscribe-des input[type="email"] {
+  width: 577px;
+  height: 55px;
+  font-size: 16px;
+  color: #0e0e0e;
+  padding-left: 40px;
+  border: none;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  margin-bottom: 25px;
+}
+#subscribe
+  .subscribe-container
+  .subscribe-des
+  input[type="email"]::placeholder {
+  font-size: 16px;
+  color: #0e0e0e4d;
+}
+#subscribe .subscribe-container .subscribe-des button {
+  font-size: 18px;
+  font-weight: 600;
+  color: #FFFFFF;
+  background-color: #006A50;
+  border: none;
+  padding: 17px 34px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  cursor: pointer;
+}
+#subscribe .subscribe-container .subscribe-des .promise{
+  font-size: 16px;
+  color: #0E0E0EB3;
+}
+
+footer .footer-container{
+  width: 73%;
+  max-width: 1122px;
+  margin: 50px auto;
+  text-align: center;
+}
+footer .footer-container h2{
+  font-size: 32px;
+  font-weight: bold;
+  color: #0E0E0E;
+  margin-bottom: 32px;
+}
+footer .footer-container .line{
+  border: 1px solid #0E0E0E1A;
+  margin-bottom: 32px;
+}
+footer .footer-container .footer-icons img{
+  width: 24px;
+  margin-right: 23px;
+  cursor: pointer;
 }
